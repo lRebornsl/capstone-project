@@ -1,0 +1,293 @@
+:root {
+  --charlestonGreen: #272a31;
+  --carminePink: #ec5242;
+  --lightGray: #d3d3d3;
+  --cultured: #f7f7f7;
+  --white: #fff;
+  --lato: 'Lato', sans-serif;
+  --cocoGoose: 'COCOGOOSE', sans-serif;
+}
+
+/* Global */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--lato);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Utility */
+.container {
+  max-width: 144rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+.title-bar {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--white);
+}
+
+.title-bar h2 {
+  font-weight: normal;
+  padding-bottom: 1.5rem;
+}
+
+.title-bar hr {
+  border-color: var(--carminePink);
+  margin: auto;
+  width: 4rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Header */
+.header {
+  background-color: rgba(39, 42, 49, .7);
+  height: 100%;
+  width: 80%;
+  z-index: 1;
+}
+
+.nav-bar hr {
+  border-color: var(--lightGray);
+}
+
+.nav-bar__item {
+  padding: 1.5rem 2rem;
+}
+
+.nav-bar__item a {
+  color: var(--white);
+}
+
+.nav-bar__item--button {
+  text-align: end;
+}
+
+/* Main */
+.main {
+  background-image: url(/images/main_mobile_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main__title {
+  color: var(--carminePink);
+  padding: 2rem 0;
+}
+
+.main__title h1 {
+  font-family: var(--cocoGoose);
+}
+
+.main__button {
+  padding: 2rem 1rem;
+}
+
+.main__button--design {
+  border: none;
+}
+
+.main__desc {
+  background-color: var(--cultured);
+  border: solid;
+  border-color: var(--white);
+}
+
+.main__desc p {
+  padding: 1rem;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  text-align: left;
+}
+
+.main__date {
+  padding: 2rem 0 4rem 0;
+  color: var(--charlestonGreen);
+}
+
+.main__date h2 {
+  font-family: var(--cocoGoose);
+  font-size: 2rem;
+}
+
+.main__date h3 {
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+/* Program */
+.program {
+  background-color: var(--charlestonGreen);
+  background-image: url(/images/program_bg.png);
+}
+
+.program__card {
+  background-color:rgba(211,211,211,.2);
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.program__card--title {
+  padding: 2.5rem 1rem;
+  min-width: 8rem;
+}
+
+.program__card--title h2 {
+  color: var(--carminePink);
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.program__card--text {
+  color: var(--white);
+  font-size: 1.2rem;
+  text-align: left;
+  padding: .5rem;
+  line-height: 1.8rem;
+}
+
+.program__button {
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.program__button--design {
+  color: var(--white);
+  background-color: var(--carminePink);
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+/* Speakers */
+.speakers .title-bar {
+  color: var(--charlestonGreen);
+}
+
+.speakers__card {
+  padding: 1rem 0;
+}
+
+.speakers__img {
+  min-width: 30%;
+}
+
+.speakers__desc {
+  padding-left: 2rem;
+}
+
+.speakers__desc--name h2 {
+  color: var(--charlestonGreen);
+  font-size: 1.4rem;
+}
+
+.speakers__desc--pro p {
+  color: var(--carminePink);
+  font-style: italic;
+  font-size: .95rem;
+  padding: 1rem 0;
+}
+
+.speakers__desc hr {
+  width: 10%;
+  color: var(--lightGray);
+}
+
+.speakers__desc--data p {
+  color: var(--charlestonGreen);
+  font-size: .75rem;
+  padding-top: 1rem;
+}
+
+.speakers__button {
+  text-align: center;
+  border: solid .1rem;
+  border-radius: .4rem;
+  border-color: var(--lightGray);
+  padding: 1rem 0;
+  margin: 4rem 0;
+}
+
+/* Partner */
+.partner {
+  background-color: var(--charlestonGreen);
+}
+
+.partner__brand {
+  padding-bottom: 3rem;
+}
+
+.partner__group {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+}
+
+.partner__group--img img {
+  width: 90%;
+}
+
+/* Footer */
+.footer__cont {
+  padding: 1rem 0;
+}
+
+.footer__img {
+  padding: 2rem 0;
+}
+
+.footer__text {
+  padding: 3.5rem 0 3.5rem 1rem;
+}
+
+.footer__text p {
+  color: var(--charlestonGreen);
+  font-size: .9rem;
+}
