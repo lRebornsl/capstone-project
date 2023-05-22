@@ -87,6 +87,10 @@ button:hover {
   width: 100%;
 }
 
+.w-50 {
+  width: 50%;
+}
+
 /* Header */
 .header {
   background-color: rgba(39, 42, 49, .7);
@@ -111,16 +115,24 @@ button:hover {
   text-align: end;
 }
 
+.nav-bar__item--design {
+  background-color: var(--white);
+  color: var(--carminePink) !important;
+  border: solid var(--carminePink) .5rem;
+  padding: 1rem;
+}
+
 /* Main */
 .main {
   background-image: url(/images/main_mobile_bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: var(--cultured);
 }
 
 .main__title {
   color: var(--carminePink);
-  padding: 2rem 0;
+  padding: 2.5rem 0 1rem 0;
 }
 
 .main__title h1 {
@@ -128,28 +140,23 @@ button:hover {
 }
 
 .main__button {
-  padding: 2rem 1rem;
-}
-
-.main__button--design {
-  border: none;
+  padding: 2rem 0;
 }
 
 .main__desc {
   background-color: var(--cultured);
-  border: solid;
-  border-color: var(--white);
+  border: solid var(--white);
 }
 
 .main__desc p {
   padding: 1rem;
   font-size: 1.7rem;
-  line-height: 3rem;
+  line-height: 2rem;
   text-align: left;
 }
 
 .main__date {
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0 6rem 0;
   color: var(--charlestonGreen);
 }
 
@@ -226,24 +233,24 @@ button:hover {
 .speakers__desc--name h2 {
   color: var(--charlestonGreen);
   font-size: 1.4rem;
+  padding-bottom: 1rem;
 }
 
 .speakers__desc--pro p {
   color: var(--carminePink);
   font-style: italic;
   font-size: .95rem;
-  padding: 1rem 0;
 }
 
 .speakers__desc hr {
   width: 10%;
   color: var(--lightGray);
+  margin: 1rem 0;
 }
 
 .speakers__desc--data p {
   color: var(--charlestonGreen);
   font-size: .75rem;
-  padding-top: 1rem;
 }
 
 .speakers__button {
@@ -290,4 +297,109 @@ button:hover {
 .footer__text p {
   color: var(--charlestonGreen);
   font-size: .9rem;
+}
+
+/* About */
+.about {
+  background-color: var(--cultured);
+}
+
+.about__button {
+  padding: 2rem 1rem;
+}
+
+.about__title {
+  color: var(--carminePink);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.about__title h1 {
+  font-family: var(--cocoGoose);
+  font-size: 2.2rem;
+}
+
+.about__desc {
+  background-color: var(--white);
+  border: solid var(--lightGray) .1rem;
+}
+
+.about__desc p {
+  padding: 1rem;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.about__contact {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  padding: 3rem 0;
+}
+
+.about__contact p {
+  text-align: center;
+}
+
+.about__contact--design {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo .title-bar {
+  color: var(--charlestonGreen);
+}
+
+.logo__text {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.logo__brand {
+  text-align: center;
+  border: solid var(--lightGray) .1rem;
+  padding: 2rem 0;
+  margin: 3rem 0;
+}
+
+/* Line */
+.line {
+  background-color: var(--lightGray);
+}
+
+/* Past */
+.past .title-bar{
+  color: var(--charlestonGreen);
+}
+
+.past__text {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.past__conferences {
+  padding: 3rem 0;
+}
+
+.past__conference {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.past__conference--design {
+  position: absolute;
+  background-color: rgba(236,82,66,.7);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 31% 0;
+  color: var(--white);
+  line-height: 3rem;
+}
+
+.past__conference--design h2 {
+  color: var();
 }
