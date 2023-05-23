@@ -430,6 +430,10 @@ button:hover {
   margin: 4rem 0;
 }
 
+.active {
+  display: none;
+}
+
 @media (min-width: 769px) {
   .speakers {
     padding-bottom: 6rem;
@@ -462,6 +466,10 @@ button:hover {
 
   .speakers__button {
     display: none;
+  }
+
+  .active {
+    display: flex;
   }
 }
 
