@@ -91,12 +91,40 @@ button:hover {
   width: 50%;
 }
 
+@media (min-width: 769px) {
+  .container {
+    width: 75%;
+  }
+}
+
+/* Social-bar */
+@media (min-width: 769px) {
+  .social-bar {
+    display: block;
+    background-color: var(--charlestonGreen);
+    padding: .5rem 0;
+  }
+
+  .social-bar__list {
+    justify-content: flex-end;
+  }
+
+  .social-bar__item a {
+    color: var(--white);
+    padding-left: 2rem;
+  }
+}
+
 /* Header */
 .header {
   background-color: rgba(39, 42, 49, .7);
   height: 100%;
   width: 80%;
   z-index: 1;
+}
+
+.header__logo {
+  display: none;
 }
 
 .nav-bar hr {
@@ -116,10 +144,53 @@ button:hover {
 }
 
 .nav-bar__item--design {
-  background-color: var(--white);
-  color: var(--carminePink) !important;
+  background-color: var(--carminePink);
   border: solid var(--carminePink) .5rem;
   padding: 1rem;
+}
+
+@media (min-width: 769px) {
+  .header {
+    max-width: 144rem;
+    width: 75%;
+    margin: 0 auto;
+    background-color: var(--white);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+
+  .header__logo {
+    display: block;
+  }
+
+  .nav-bar__list {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--charlestonGreen);
+  }
+
+  .nav-bar__item {
+    padding: 2rem 0 2rem 6rem;
+  }
+
+  .nav-bar__item a {
+    color: var(--charlestonGreen);
+  }
+
+  .nav-bar__item--button {
+    display: none;
+  }
+
+  .nav-bar hr {
+    display: none;
+  }
+
+  .nav-bar__item--design {
+    background-color: var(--white);
+    color: var(--carminePink) !important;
+  }
 }
 
 /* Main */
@@ -170,6 +241,54 @@ button:hover {
   font-weight: normal;
 }
 
+@media (min-width: 769px) {
+  .main {
+    background-image: url(/images/main_desktop_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .main__title {
+    padding-top: 8rem;
+  }
+
+  .main__title h1 {
+    font-size: 7.2rem;
+    line-height: 8rem;
+  }
+
+  .main__title h2 {
+    font-size: 4.2rem;
+    font-weight: normal;
+  }
+
+  .main__desc {
+    max-width: 60%;
+  }
+
+  .main__desc p {
+    line-height: 3rem;
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+
+  .main__date {
+    padding: 3rem 0 12rem 0;
+  }
+
+  .main__date h2 {
+    font-size: 3.6rem;
+  }
+
+  .main__date h3 {
+    font-size: 2.6rem;
+  }
+
+  .main__button {
+    display: none;
+  }
+}
+
 /* Program */
 .program {
   background-color: var(--charlestonGreen);
@@ -211,6 +330,54 @@ button:hover {
   background-color: var(--carminePink);
   font-size: 2rem;
   padding: 3rem;
+}
+
+@media (min-width: 769px) {
+  .program__cont {
+    display: flex;
+  }
+
+  .program__card {
+    display: block;
+    margin: 0 .2rem;
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  .program__card--icon {
+    text-align: center;
+  }
+
+  .program__card--title {
+    padding: 1rem 0;
+    min-width: none;
+  }
+
+  .program__card--title h2 {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  .program__card--text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .program__button {
+    display: none;
+  }
+
+  .program__link {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    padding: 8rem 0;
+  }
+
+  .program__link a {
+    color: var(--white);
+  }
 }
 
 /* Speakers */
@@ -262,6 +429,41 @@ button:hover {
   margin: 4rem 0;
 }
 
+@media (min-width: 769px) {
+  .speakers {
+    padding-bottom: 6rem;
+  }
+
+  .speakers__cont {
+    display: grid;
+    grid: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .speakers__desc {
+    padding-top: 1.2rem;
+    padding-right: 1rem;
+  }
+
+  .speakers__desc--name h2 {
+    font-size: 2rem;
+  }
+
+  .speakers__desc--pro p {
+    color: var(--carminePink);
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+
+  .speakers__desc--data p {
+    font-size: 1.4rem;
+  }
+
+  .speakers__button {
+    display: none;
+  }
+}
+
 /* Partner */
 .partner {
   background-color: var(--charlestonGreen);
@@ -281,6 +483,12 @@ button:hover {
   width: 90%;
 }
 
+@media (min-width: 769px) {
+  .partner__brand {
+    display: flex;
+  }
+}
+
 /* Footer */
 .footer__cont {
   padding: 1rem 0;
@@ -297,6 +505,18 @@ button:hover {
 .footer__text p {
   color: var(--charlestonGreen);
   font-size: .9rem;
+}
+
+@media (min-width: 769px) {
+  .footer__text {
+    display: flex;
+    padding-left: 4rem;
+  }
+
+  .footer__text p {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
 }
 
 /* About */
