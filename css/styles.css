@@ -102,7 +102,7 @@ button:hover {
   .social-bar {
     display: block;
     background-color: var(--charlestonGreen);
-    padding: .5rem 0;
+    padding: 0.5rem 0;
   }
 
   .social-bar__list {
@@ -117,7 +117,7 @@ button:hover {
 
 /* Header */
 .header {
-  background-color: rgba(39, 42, 49, .7);
+  background-color: rgba(39, 42, 49, 0.7);
   height: 100%;
   width: 80%;
   z-index: 1;
@@ -145,7 +145,7 @@ button:hover {
 
 .nav-bar__item--design {
   background-color: var(--carminePink);
-  border: solid var(--carminePink) .5rem;
+  border: solid var(--carminePink) 0.5rem;
   padding: 1rem;
 }
 
@@ -297,7 +297,7 @@ button:hover {
 }
 
 .program__card {
-  background-color:rgba(211,211,211,.2);
+  background-color: rgba(211, 211, 211, 0.2);
   padding: 1rem 0;
   margin: 1rem 0;
 }
@@ -317,7 +317,7 @@ button:hover {
   color: var(--white);
   font-size: 1.2rem;
   text-align: left;
-  padding: .5rem;
+  padding: 0.5rem;
   line-height: 1.8rem;
 }
 
@@ -340,7 +340,7 @@ button:hover {
 
   .program__card {
     display: block;
-    margin: 0 .2rem;
+    margin: 0 0.2rem;
     padding: 2rem 1rem;
     width: 100%;
   }
@@ -351,7 +351,6 @@ button:hover {
 
   .program__card--title {
     padding: 1rem 0;
-    min-width: none;
   }
 
   .program__card--title h2 {
@@ -407,7 +406,7 @@ button:hover {
 .speakers__desc--pro p {
   color: var(--carminePink);
   font-style: italic;
-  font-size: .95rem;
+  font-size: 0.95rem;
 }
 
 .speakers__desc hr {
@@ -418,13 +417,13 @@ button:hover {
 
 .speakers__desc--data p {
   color: var(--charlestonGreen);
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .speakers__button {
   text-align: center;
-  border: solid .1rem;
-  border-radius: .4rem;
+  border: solid 0.1rem;
+  border-radius: 0.4rem;
   border-color: var(--lightGray);
   padding: 1rem 0;
   margin: 4rem 0;
@@ -517,7 +516,7 @@ button:hover {
 
 .footer__text p {
   color: var(--charlestonGreen);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 @media (min-width: 769px) {
@@ -566,7 +565,7 @@ button:hover {
 
 .about__desc {
   background-color: var(--white);
-  border: solid var(--lightGray) .1rem;
+  border: solid var(--lightGray) 0.1rem;
 }
 
 .about__desc p {
@@ -603,7 +602,7 @@ button:hover {
   .about__title {
     padding: 6rem 0 0 0;
   }
-  
+
   .about__title h1 {
     font-size: 5.2rem;
   }
@@ -645,7 +644,7 @@ button:hover {
 
 .logo__brand {
   text-align: center;
-  border: solid var(--lightGray) .1rem;
+  border: solid var(--lightGray) 0.1rem;
   padding: 2rem 0;
   margin: 3rem 0;
 }
@@ -667,7 +666,7 @@ button:hover {
 }
 
 /* Past */
-.past .title-bar{
+.past .title-bar {
   color: var(--charlestonGreen);
 }
 
@@ -688,17 +687,13 @@ button:hover {
 
 .past__conference--design {
   position: absolute;
-  background-color: rgba(236,82,66,.7);
+  background-color: rgba(236, 82, 66, 0.7);
   width: 100%;
   height: 100%;
   text-align: center;
   padding: 31% 0;
   color: var(--white);
   line-height: 3rem;
-}
-
-.past__conference--design h2 {
-  color: var();
 }
 
 @media (min-width: 769px) {
