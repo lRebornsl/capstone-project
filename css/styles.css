@@ -169,6 +169,7 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     color: var(--charlestonGreen);
+    width: 100%;
   }
 
   .nav-bar__item {
@@ -484,6 +485,10 @@ button:hover {
 }
 
 @media (min-width: 769px) {
+  .about__partner {
+    display: none;
+  }
+
   .partner__brand {
     display: flex;
   }
@@ -516,6 +521,18 @@ button:hover {
   .footer__text p {
     font-size: 1.5rem;
     padding-right: 1rem;
+  }
+
+  .af__footer {
+    background-color: var(--charlestonGreen);
+  }
+
+  .af__img img {
+    content: url(/images/naition_logo_bw.png);
+  }
+
+  .af__text p {
+    color: var(--white);
   }
 }
 
@@ -555,15 +572,56 @@ button:hover {
   font-size: 1.4rem;
   line-height: 2.5rem;
   padding: 3rem 0;
-}
-
-.about__contact p {
   text-align: center;
 }
 
 .about__contact--design {
   font-weight: bold;
   text-decoration: underline;
+  color: var(--charlestonGreen);
+}
+
+@media (min-width: 769px) {
+  .about {
+    background-image: url(/images/about_desktop_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .about__button {
+    display: none;
+  }
+
+  .about__title {
+    padding: 6rem 0 0 0;
+  }
+  
+  .about__title h1 {
+    font-size: 5.2rem;
+  }
+
+  .about__title h2 {
+    font-size: 3.2rem;
+  }
+
+  .about__line {
+    display: block;
+    padding: 3rem 0;
+    width: 4%;
+    margin: 0 auto;
+  }
+
+  .about__line hr {
+    border-color: var(--carminePink);
+  }
+
+  .about__desc {
+    font-size: 1.8rem;
+  }
+
+  .about__contact {
+    padding-bottom: 8rem;
+  }
 }
 
 /* Logo */
@@ -582,6 +640,17 @@ button:hover {
   border: solid var(--lightGray) .1rem;
   padding: 2rem 0;
   margin: 3rem 0;
+}
+
+@media (min-width: 769px) {
+  .logo__text {
+    font-size: 1.5rem;
+  }
+
+  .logo__brand {
+    width: 40%;
+    margin: 4rem auto;
+  }
 }
 
 /* Line */
@@ -622,4 +691,19 @@ button:hover {
 
 .past__conference--design h2 {
   color: var();
+}
+
+@media (min-width: 769px) {
+  .past__text {
+    font-size: 1.5rem;
+  }
+
+  .past__conferences {
+    display: flex;
+  }
+
+  .past__conference {
+    min-width: 50%;
+    margin: 0 1rem;
+  }
 }

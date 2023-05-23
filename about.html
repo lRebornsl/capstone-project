@@ -12,21 +12,32 @@
   <title>N'A.I'tion Evolution</title>
 </head>
 <body>
-  <header class="header p-fixed hidden">
-    <div>
-      <nav class="nav-bar">
-        <ul>
-          <div class="nav-bar__item nav-bar__item--button"><button class="nav-bar__button"><img src="icons/nav_bar_close.png" alt="Close"></button></div>
-          <div><hr><li class="nav-bar__item"><a href="/index.html">Home</a></li></div>
-          <div><hr><li class="nav-bar__item"><a href="/about.html">About</a></li></div>
-          <div><hr><li class="nav-bar__item"><a href="#">Program</a></li></div>
-          <div><hr><li class="nav-bar__item"><a href="#">Join</a></li></div>
-          <div><hr><li class="nav-bar__item"><a href="#">Sponsors</a></li></div>
-          <div><hr><li class="nav-bar__item"><a href="#">News</a></li></div>
-          <div><hr><li class="nav-bar__item"><a class="nav-bar__item--design" href="#">NE Campaign</a></li><hr></div>
-        </ul>
-      </nav>
+  <div class="social-bar hidden">
+    <div class="container">
+      <ul class="social-bar__list flex">
+        <li class="social-bar__item"><a href="#"><img src="icons/facebook_icon.png" alt="Icon"></a></li>
+        <li class="social-bar__item"><a href="#"><img src="icons/twitter_icon.png" alt="Icon"></a></li>
+        <li class="social-bar__item"><a href="#">English</a></li>
+        <li class="social-bar__item"><a href="#">My Page</a></li>
+        <li class="social-bar__item"><a href="#">Logout</a></li>
+      </ul>
     </div>
+  </div>
+
+  <header class="header p-fixed hidden">
+    <div class="header__logo"><img src="images/naition_logo.jpg" alt="Logo"></div>
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <div class="nav-bar__item nav-bar__item--button"><button class="nav-bar__button"><img src="icons/nav_bar_close.png" alt="Close"></button></div>
+        <div><hr><li class="nav-bar__item"><a href="/index.html">Home</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="/about.html">About</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">Program</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">Join</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">Sponsors</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">News</a></li></div>
+        <div><hr><li class="nav-bar__item"><a class="nav-bar__item--design" href="#">NE Campaign</a></li><hr></div>
+      </ul>
+    </nav>
   </header>
   
   <section class="about">
@@ -36,12 +47,13 @@
         <h2>"N'AI'tion Evolution"</h2>
         <h1>NAITION EVOLUTION GLOBAL CONFERNECE 2024</h1>
       </div>
+      <div class="about__line hidden"><hr></div>
       <div class="about__desc">
         <p>The NAItion Evolution Global Conference is a premier gathering of leading minds in the field of Artificial Intelligence (AI). This annual event serves as a platform to explore the latest advancements in AI.</p>
       </div>
       <div class="about__contact">
         <p>Please contact us per Email for any further questions about NE Global Conference 2024!</p>
-        <p class="about__contact--design">neglobal2024@nevolution.org</p>
+        <a href="#" class="about__contact--design">neglobal2024@nevolution.org</a>
       </div>
     </div>
   </section>
@@ -67,7 +79,7 @@
     </div>
   </section>
 
-  <section class="partner">
+  <section class="partner about__partner">
     <div class="container">
       <div class="title-bar"><h2>Partner</h2><hr></div>
       <div class="partner__brand">
@@ -84,11 +96,11 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <footer class="footer af__footer">
     <div class="container">
       <div class="footer__cont flex">
-        <div class="footer__img"><img class="w-100" src="images/naition_logo.jpg" alt="Logo"></div>
-        <div class="footer__text"><p>2023 Naition Evolution California.</p><p>Some Rights Reserverd.</p></div>
+        <div class="footer__img af__img"><img class="w-100" src="images/naition_logo.jpg" alt="Logo"></div>
+        <div class="footer__text af__text"><p>2023 Naition Evolution California.</p><p>Some Rights Reserverd.</p></div>
       </div>
     </div>
   </footer>
