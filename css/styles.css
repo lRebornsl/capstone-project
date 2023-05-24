@@ -173,7 +173,7 @@ button:hover {
   }
 
   .nav-bar__item {
-    padding: 2rem 0 2rem 6rem;
+    padding: 2rem 0 2rem 4rem;
   }
 
   .nav-bar__item a {
@@ -369,6 +369,7 @@ button:hover {
 
   .program__link {
     display: block;
+    color: var(--white);
     text-align: center;
     text-decoration: underline;
     font-size: 1.8rem;

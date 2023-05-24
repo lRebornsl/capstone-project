@@ -138,7 +138,7 @@ If you like this project please show us support by givintg it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my colleagues at Microverse for their support during the project.
+I would like to thank my colleagues at Microverse for their support during the project and Cindy Shin for her [template site](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
