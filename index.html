@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" as="styles">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/cocogoose');
+  </style>
+  <title>N'A.I'tion Evolution</title>
+</head>
+<body>
+  <div class="social-bar hidden">
+    <div class="container">
+      <ul class="social-bar__list flex">
+        <li class="social-bar__item"><a href="#"><img src="icons/facebook_icon.png" alt="Icon"></a></li>
+        <li class="social-bar__item"><a href="#"><img src="icons/twitter_icon.png" alt="Icon"></a></li>
+        <li class="social-bar__item"><a href="#">English</a></li>
+        <li class="social-bar__item"><a href="#">My Page</a></li>
+        <li class="social-bar__item"><a href="#">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <header id="header" class="header p-fixed hidden">
+    <div class="header__logo"><img src="images/naition_logo.jpg" alt="Logo"></div>
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <div class="nav-bar__item nav-bar__item--button"><button class="nav-bar__button"><img src="icons/nav_bar_close.png" alt="Close"></button></div>
+        <div><hr><li class="nav-bar__item"><a href="index.html">Home</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="about.html">About</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">Program</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">Join</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">Sponsors</a></li></div>
+        <div><hr><li class="nav-bar__item"><a href="#">News</a></li></div>
+        <div><hr><li class="nav-bar__item"><a class="nav-bar__item--design" href="#">NE Campaign</a></li><hr></div>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <div class="main__button"><button><img class="w-50" src="icons/nav_bar_icon.png" alt="Open"></button></div>
+      <div class="main__title">
+        <h2>"N'AI'tion Evolution"</h2>
+        <h1>NAITION EVOLUTION GLOBAL CONFERNECE 2024</h1>
+      </div>
+      <div class="main__desc">
+        <p>An extense conference talking about AI advances and tech. This conference is taking place in July, in California.</p>
+      </div>
+      <div class="main__date">
+        <h2>2024.07.19(FRI) ~ 20(SAT)</h2>
+        <h3>@ Event Spaces - Guerneville, CA</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="program" class="program">
+    <div class="container">
+      <div class="title-bar"><h2>Main Program</h2><hr></div>
+      <div class="program__cont">
+        <article class="program__card flex">
+          <div class="program__card--icon"><img src="icons/program_icon_01.png" alt="Icon"></div>
+          <div class="program__card--title"><h2>Intro</h2></div>
+          <div class="program__card--text"><p>A little introduction that explains the objective and important points of the conference.</p></div>
+        </article>
+        <article class="program__card flex">
+          <div class="program__card--icon"><img src="icons/program_icon_02.png" alt="Icon"></div>
+          <div class="program__card--title"><h2>Exhibition</h2></div>
+          <div class="program__card--text"><p>Appreciate various creations applying NE license of artists, organized from Art Center.</p></div>
+        </article>
+        <article class="program__card flex">
+          <div class="program__card--icon"><img src="icons/program_icon_03.png" alt="Icon"></div>
+          <div class="program__card--title"><h2>Forum</h2></div>
+          <div class="program__card--text"><p>Have the time to share your thoughts and opinions with experts for each topic.</p></div>
+        </article>
+        <article class="program__card flex">
+          <div class="program__card--icon"><img src="icons/program_icon_04.png" alt="Icon"></div>
+          <div class="program__card--title"><h2>Workshop</h2></div>
+          <div class="program__card--text"><p>Try creating your own work using open source license rather than just watching.</p></div>
+        </article>
+        <article class="program__card flex">
+          <div class="program__card--icon"><img src="icons/program_icon_05.png" alt="Icon"></div>
+          <div class="program__card--title"><h2>Union</h2></div>
+          <div class="program__card--text"><p>Get opportunities to network with NE affiliates around the world, also after the conference.</p></div>
+        </article>
+      </div>
+      <div class="program__button"><a class="program__button--design" href="#">Join NE Global Conference</a></div>
+      <div class="program__link hidden"><a href="#">SEE THE WHOLE PROGRAM</a></div>
+    </div>
+  </section>
+  
+  <section class="speakers">
+    <div class="container">
+      <div class="title-bar"><h2>Featured Speakers</h2><hr></div>
+      <div class="speakers__cont"></div>
+      <div id="sp_button" class="speakers__button"><button>MORE <img src="icons/arrow_down.png" alt="Arrow"></button></div>
+    </div>
+  </section>
+
+  <section id="partner" class="partner">
+    <div class="container">
+      <div class="title-bar"><h2>Partner</h2><hr></div>
+      <div class="partner__brand">
+        <div class="partner__group flex">
+          <div class="partner__group--img"><a href="#"><img src="images/mozilla.png" alt="Brand"></a></div>
+          <div class="partner__group--img"><a href="#"><img src="images/google.png" alt="Brand"></a></div>
+          <div class="partner__group--img"><a href="#"><img src="images/naver.png" alt="Brand"></a></div>
+        </div>
+        <div class="partner__group flex">
+          <div class="partner__group--img"><a href="#"><img src="images/kakao.png" alt="Brand"></a></div>
+          <div class="partner__group--img"><a href="#"><img src="images/airbnb.png" alt="Brand"></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__cont flex">
+        <div class="footer__img"><img class="w-100" src="images/naition_logo.jpg" alt="Logo"></div>
+        <div class="footer__text"><p>2023 Naition Evolution California.</p><p>Some Rights Reserverd.</p></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/speakers.js"></script>
+</body>
+</html>
